@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title> Filling form page </title>
+  </head>
+  <body>
+    <h2><u>Table consisting of student information </u></h2>
+    <table border="1" style="border-collapse: collapse; text-align: center;">
+      <!--creating table-->
+      <thead>
+        <th> Name </th>
+        <th> Father's Name </th>
+        <th> Age </th>
+        <th> Education </th>
+        <th> City </th>
+      </thead>
+      <tbody>
+        <tr>
+        <td> Gale Praveen </td>
+        <td> Gale Raju </td>
+        <td> 20 </td>
+        <td> B.E.(CSE) </td>
+        <td> Hyderabad </td>
+        </tr>
+        
+        <tr>
+        <td> Mohd Yasser </td>
+        <td> Mohd Shareef </td>
+        <td> 22 </td>
+        <td> B.E.(IT) </td>
+        <td> Bengaluru </td>
+        </tr>
+        
+        <tr>
+        <td> Rahul Pawar </td>
+        <td> Vinod Pawar </td>
+        <td> 21 </td>
+        <td> B.Ed.(Computers) </td>
+        <td> Chennai </td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <!--creating form-->
+    <h2><u> form for submission of data </u></h2>
+    <div>
+      <form action="#" method="GET">
+        <label for="name"> Name: </label>
+        <input type="text" name="name" id="name" />
+        <br />
+        <br />
+        <label for="email"> Email: </label>
+        <input type="email" name="email" id="email" />
+        <br />
+        <br />
+        <label for="phone"> Phone Number: </label>
+        <input type="number" name="phone" id="phone" pattern="[5-9]{1}[0-9]{9}" maxlength="10"/>
+        <br />
+        <br />
+        <label for="country"> Select Country: </label>
+        <select name="country" id="country">
+          <option value="India">India</option>
+          <option value="Nepal">Nepal</option>
+          <option value="Pakistan">Pakistan</option>
+        </select>
+        <br />
+        <br />
+        <label for="city"> Select City: </label>
+        <select name="city" id="city">
+          <option value="Hyderabad">Hyderabad</option>
+          <option value="Kathmandu">Kathmandu</option>
+          <option value="Islamabad">Islamabad</option>
+        </select>
+        <br />
+        <br />
+        <label for="dob">Date of Birth: </label>
+        <input type="date" name="dob" id="dob"/>
+        <br />
+        <br />
+        <label for="about">Tell about yourself: </label>
+        <br />
+        <textarea id="about" rows="5" cols="40"></textarea>
+        <br />
+        <br />
+        <input type="submit" />
+      </form>
+    </div>
+    
+  </body>
+</html>

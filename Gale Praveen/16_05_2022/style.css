@@ -1,0 +1,140 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body{
+  background: #0f0f0f;
+  opacity: 0.9;
+  color: #fff;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  border: 1px solid #fff;
+  padding: 1em;
+}
+
+body p{
+  font-size: 0.85rem;
+}
+
+body a{
+  color: #fff;
+}
+
+header{
+  margin: 3em 0;
+  margin-top: 1em;
+}
+
+header h1{
+  padding: 1.5em 0;
+  text-decoration: underline;
+  
+}
+
+header p{
+  line-height: 1.5rem;
+}
+
+main{
+  text-align: left;
+}
+
+main h1{
+  margin-bottom: 1em;
+}
+
+main .left-sec{
+  float: left;
+  width: 45%;
+}
+
+
+main .right-sec{
+  float: right;
+  width: 45%;
+}
+
+main::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.address1{
+  float: left;
+  width: 50%;
+}
+
+.handlers1{
+  float: right;
+  width: 50%;
+}
+
+.clearfix{
+  clear: both;
+}
+
+.address2{
+  float: left;
+  width: 50%;
+}
+
+.handlers2{
+  float: right;
+  width: 50%;
+}
+
+.clearfix{
+  clear: both;
+}
+
+.handlers{
+  margin-top: 8%;
+  padding: 1em;
+}
+
+.right-sec{
+  width: 55%;
+}
+
+.right-sec form{
+  text-align: center;
+}
+
+.right-sec input{
+  display: inline-block;
+  background: transparent;
+  border: none;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  width: 70%;
+  margin: 1em auto;
+  outline: none;
+}
+
+.right-sec input::placeholder{
+  color: #fff;
+  text-align: center;
+}
+
+.right-sec form p{
+  margin: 1.2em 0;
+}
+
+.right-sec form button{
+  display: inline-block;
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 0.8em 1.2em;
+}
+
+.right-sec form button:hover{
+  background: #fff;
+  color: #000;
+  transition: 0.5s;
+}

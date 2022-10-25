@@ -1,0 +1,31 @@
+div{
+  border: 1px solid #000;
+  margin: 2em auto;
+  padding: 2em;
+  width: 30%;
+}
+
+img{
+  width: 50%;
+  height: 15rem;
+}
+
+h3{
+  text-align: center;
+}
+
+.cover img{
+  object-fit: cover;
+}
+
+.fill img{
+  object-fit: fill;
+}
+
+.contain img{
+  object-fit: contain;
+}
+
+.scale-down img{
+  object-fit: scale-down;
+}

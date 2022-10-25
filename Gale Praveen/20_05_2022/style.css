@@ -1,0 +1,14 @@
+
+div{
+  border: 1px solid #000;
+  margin-bottom: 3em;
+  width: 80%;
+  height: 10rem;
+}
+
+
+.box{
+  height: 100px;
+  width: 100px;
+  background: cyan;
+}

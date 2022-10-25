@@ -1,0 +1,62 @@
+#name{
+  display: inline-block;
+  text-align: center;
+  outline: none;
+  background: cyan;
+  margin: 0 auto;
+}
+
+.btn{
+  background: cyan;
+  color: #fff;
+}
+
+h4{
+  text-decoration: underline;
+}
+
+
+#name::placeholder{
+  font-style: italic;
+  color: salmon;
+}
+
+.btn:hover{
+  background: #fff;
+  color: cyan;
+}
+
+.parent p:first-child{
+  background: orange;
+}
+
+.parent p:nth-child(2) span{
+  background: blue;
+}
+
+.parent p:last-child{
+  background: green;
+}
+
+.parent2 p:first-letter{
+  color: orange;
+}
+
+.parent2 p:first-line{
+  color: green;
+}
+
+.mid::before{
+  content: "before p";
+  background: orange;
+}
+
+.mid::after{
+  content: "after p";
+  background: green;
+}
+
+p.select::selection{
+  background: #000;
+  color: #fff;
+}

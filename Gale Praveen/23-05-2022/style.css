@@ -1,0 +1,37 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.box{
+  height: 10rem;
+  width: 10rem;
+  border: 1px solid #000;
+  margin: 2em auto;
+  animation-name: change-bg;
+  animation-duration: 6s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes change-bg{
+  0%{
+    background: violet;
+  }
+  25%{
+    background: indigo;
+  }
+  50%{
+    background: blue;
+  }
+  75%{
+    background: green;
+  }
+  100%{
+    background: yellow;
+  }
+}

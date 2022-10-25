@@ -1,0 +1,55 @@
+
+
+body{
+  font-family: Sans-Serif;
+}
+
+.min-height{
+  background: orange;
+  min-height: 60px;
+}
+
+.min-width{
+  background: lightgreen;
+  min-width: 60px;
+}
+
+.max-height{
+  background: orange;
+  max-height: 60px;
+}
+
+.max-width{
+  background: lightgreen;
+  max-width: 60px;
+}
+
+.both-width{
+  background: cyan;
+  max-width: 60px;
+  min-width: 30px;
+}
+
+.both-height{
+  background: yellow;
+  min-height: 30px;
+  max-height: 160px;
+}
+
+.overflow-scroll{
+  background: orange;
+  max-height: 60px;
+  overflow: scroll;
+}
+
+.overflow-hidden{
+  background: pink;
+  max-height: 60px;
+  overflow: hidden;
+}
+
+.overflow-auto{
+  background: lightgreen;
+  max-height: 60px;
+  overflow: auto;
+}
